@@ -1,0 +1,36 @@
+// Variables
+//colors
+$white: #FFFFFF;
+$purple: #673AB7;
+
+
+body{
+	font-family: 'Titillium Web', sans-serif;
+	color: $white;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+	padding: 0;
+	margin: 0;
+}
+p{
+	font-size: 1.5em;
+}
+
+.blog-hero {
+	vertical-align: middle;
+	background-color: $purple;
+	ul {
+		list-style: none;
+		text-align: center;
+		li {
+			display: inline-block;
+			padding: 0 20px;
+			a {
+				color: $white;
+			}
+		}
+	}
+	.intro {
+		padding: 120px 0;
+	}
+}

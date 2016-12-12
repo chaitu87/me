@@ -1,0 +1,26 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+  color: #FFFFFF; }
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+  padding: 0;
+  margin: 0; }
+
+p {
+  font-size: 1.5em; }
+
+.blog-hero {
+  vertical-align: middle;
+  background-color: #673AB7; }
+  .blog-hero ul {
+    list-style: none;
+    text-align: center; }
+    .blog-hero ul li {
+      display: inline-block;
+      padding: 0 20px; }
+      .blog-hero ul li a {
+        color: #FFFFFF; }
+  .blog-hero .intro {
+    padding: 120px 0; }
+
+/*# sourceMappingURL=style.css.map */
