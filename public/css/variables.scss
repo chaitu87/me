@@ -1,0 +1,70 @@
+// Variables
+//colors
+$white: #FFFFFF;
+$purple: #673AB7;
+$dpurple: #BDBDBD;
+$grey: #333333;
+$lgrey: #512DA8;
+$llgrey: #BDBDBD;
+$accent: #FF4081;
+
+body{
+	font-family: 'Titillium Web', sans-serif;
+	color: $grey;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+	padding: 0;
+	margin: 0;
+}
+p{
+	font-size: 1.5em;
+}
+a{
+	color: $accent;
+	text-decoration: none;
+	&:hover{
+		text-decoration: none;
+		border-bottom: 2px solid $dpurple;
+	}
+}
+
+.maincontent{
+	padding: 0;
+}
+.inner-hr-list{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	li{
+		display: inline-block;
+		margin-right: 10px;
+		&:after{
+			content: '/';
+			padding-left: 10px;
+		}
+		&:last-child{
+			&:after{
+				content: '';
+			}
+		}
+	}
+}
+.snippets{
+	padding: 50px 0;
+}
+.projects{
+	padding: 50px 0;
+}
+.headercon{
+	background-color: $white;
+	padding: 10px 0;
+	ul{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		li{
+			display: inline-block;
+			margin-right: 20px;
+		}
+	}
+}

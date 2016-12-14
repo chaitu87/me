@@ -1,24 +1,8 @@
-// Variables
-//colors
-$white: #FFFFFF;
-$purple: #673AB7;
-
-
-body{
-	font-family: 'Titillium Web', sans-serif;
-	color: $white;
-}
-h1,h2,h3,h4,h5,h6,p,ul,ol{
-	padding: 0;
-	margin: 0;
-}
-p{
-	font-size: 1.5em;
-}
-
+@import 'variables';
 .blog-hero {
 	vertical-align: middle;
 	background-color: $purple;
+	color: $white;
 	ul {
 		list-style: none;
 		text-align: center;
