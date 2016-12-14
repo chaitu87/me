@@ -1,8 +1,8 @@
 @import 'variables';
 .blog-hero {
 	vertical-align: middle;
-	background-color: $purple;
-	color: $white;
+	background-color: $white;
+	color: $purple;
 	ul {
 		list-style: none;
 		text-align: center;
@@ -10,7 +10,7 @@
 			display: inline-block;
 			padding: 0 20px;
 			a {
-				color: $white;
+				color: $purple;
 			}
 		}
 	}
