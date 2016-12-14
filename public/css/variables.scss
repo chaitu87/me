@@ -2,7 +2,7 @@
 //colors
 $white: #FFFFFF;
 $purple: #673AB7;
-$dpurple: #BDBDBD;
+$dpurple: #512DA8;
 $grey: #333333;
 $lgrey: #512DA8;
 $llgrey: #BDBDBD;
@@ -37,6 +37,7 @@ a{
 
 .maincontent{
 	padding: 0;
+	min-height: 700px;
 }
 .inner-hr-list{
 	list-style: none;
@@ -81,4 +82,30 @@ a{
 	text-transform: uppercase;
 	margin-right: 5px;
 	border-radius: 3px;
+}
+#sidebar{
+	display: none;
+	background-color: $dpurple;
+	ul{
+		margin-top: 55px;
+		li{
+			padding: 10px;
+			a{
+				padding: 0 20px;
+				color: $white;
+			}
+		}
+	}
+}
+@media (max-width: 543px) {
+	.logo{
+		margin-top: 5px;
+	}
+	#sidebar{
+		display: block;
+	}
+}
+.btn-toggle{
+	background-color: transparent;
+	border: 0;
 }

@@ -18,12 +18,13 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: none;
-    border-bottom: 2px solid #BDBDBD; }
+    border-bottom: 2px solid #512DA8; }
   a:visited {
     text-decoration: none; }
 
 .maincontent {
-  padding: 0; }
+  padding: 0;
+  min-height: 700px; }
 
 .inner-hr-list {
   list-style: none;
@@ -61,6 +62,27 @@ a {
   text-transform: uppercase;
   margin-right: 5px;
   border-radius: 3px; }
+
+#sidebar {
+  display: none;
+  background-color: #512DA8; }
+  #sidebar ul {
+    margin-top: 55px; }
+    #sidebar ul li {
+      padding: 10px; }
+      #sidebar ul li a {
+        padding: 0 20px;
+        color: #FFFFFF; }
+
+@media (max-width: 543px) {
+  .logo {
+    margin-top: 5px; }
+
+  #sidebar {
+    display: block; } }
+.btn-toggle {
+  background-color: transparent;
+  border: 0; }
 
 h1 {
   display: inline-block;
