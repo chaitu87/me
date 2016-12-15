@@ -105,6 +105,8 @@ a {
       padding-bottom: 10px; }
       .description ul li.subhead {
         color: #333333; }
+        .description ul li.subhead .fa {
+          color: #FF4081; }
       .description ul li.subsubhead {
         color: #333333; }
       .description ul li a {
@@ -115,6 +117,8 @@ a {
         color: #BDBDBD; }
     .description ul.internal {
       padding: 0 0 0 20px; }
+      .description ul.internal li .fa {
+        color: green; }
 
 .blog-hero {
   vertical-align: middle;

@@ -132,6 +132,9 @@ a{
 			padding-bottom: 10px;
 			&.subhead{
 				color: $grey;
+				.fa{
+					color: $accent;
+				}
 			}
 			&.subsubhead{
 				color: $grey;
@@ -147,6 +150,11 @@ a{
 		}
 		&.internal{
 			padding: 0 0 0 20px;
+			li{
+				.fa{
+					color: green;
+				}
+			}
 		} 
 	}
 }
