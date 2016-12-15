@@ -22,6 +22,7 @@ module.exports = function (grunt) {
         files: {
           'public/css/style.css': 'public/css/style.scss',
           'public/css/projects/troops/style.css': 'public/css/projects/troops/style.scss',
+          'public/css/projects/web-presentation/style.css': 'public/css/projects/web-presentation/style.scss',
           'public/css/snippets/webworker.css': 'public/css/snippets/webworker.scss'
         }
       }
@@ -35,13 +36,16 @@ module.exports = function (grunt) {
         files: [
           'app.js',
           'app/**/*.js',
+          'app/**/**/*.js',
           'config/*.js'
         ],
         tasks: ['develop', 'delayed-livereload']
       },
       css: {
         files: [
-          'public/css/*.scss'
+          'public/css/*.scss',
+          'public/css/**/*.scss',
+          'public/css/**/**/*.scss'
         ],
         tasks: ['sass'],
         options: {

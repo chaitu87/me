@@ -17,3 +17,9 @@ router.get('/project/troops', function(req, res, next) {
     	title: "Troops"
     });
 });
+
+router.get('/project/web-presentation', function(req, res, next) {
+    res.render('projects/web-presentation/index',{
+    	title: "Web Presentation"
+    });
+});

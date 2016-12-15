@@ -113,6 +113,9 @@ a{
 .description{
 	font-size: 0.9em;
 	color: $llgrey;
+	strong{
+		color: $accent;
+	}
 	p{
 		margin-top: 20px;
 	}
