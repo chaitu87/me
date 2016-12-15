@@ -21,6 +21,7 @@ module.exports = function (grunt) {
       dist: {
         files: {
           'public/css/style.css': 'public/css/style.scss',
+          'public/css/projects/troops/style.css': 'public/css/projects/troops/style.scss',
           'public/css/snippets/webworker.css': 'public/css/snippets/webworker.scss'
         }
       }

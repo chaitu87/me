@@ -4,7 +4,7 @@ $white: #FFFFFF;
 $purple: #673AB7;
 $dpurple: #512DA8;
 $grey: #333333;
-$lgrey: #512DA8;
+$lgrey: #A7A7A7;
 $llgrey: #BDBDBD;
 $accent: #FF4081;
 
@@ -14,7 +14,7 @@ body{
 }
 .btn:focus,.btn:active:focus,.btn.active:focus,
 .btn.focus,.btn:active.focus,.btn.active.focus {
-    outline: none;
+	outline: none;
 }
 h1,h2,h3,h4,h5,h6,p,ul,ol{
 	padding: 0;
@@ -27,6 +27,7 @@ a{
 	color: $accent;
 	text-decoration: none;
 	&:hover{
+		color: $accent;
 		text-decoration: none;
 		border-bottom: 2px solid $dpurple;
 	}
@@ -108,4 +109,44 @@ a{
 .btn-toggle{
 	background-color: transparent;
 	border: 0;
+}
+.description{
+	font-size: 0.9em;
+	color: $llgrey;
+	p{
+		margin-top: 20px;
+	}
+	h3{
+		display: inline-block;
+		margin-top: 20px;
+		color: $purple;
+		font-weight: 100;
+		border-bottom: 2px solid $accent;
+		padding-bottom: 10px;
+		padding-right: 20px;
+	}
+	ul{
+		padding: 20px 0 0 20px;
+		li{
+			font-size: 1.2em;
+			padding-bottom: 10px;
+			&.subhead{
+				color: $grey;
+			}
+			&.subsubhead{
+				color: $grey;
+			}
+			a{
+				font-size: 1.2em;
+			}
+			.help{
+				display: inline-block;
+				padding-left: 10px;
+				color: $llgrey;
+			}
+		}
+		&.internal{
+			padding: 0 0 0 20px;
+		} 
+	}
 }
