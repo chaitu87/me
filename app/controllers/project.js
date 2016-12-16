@@ -18,6 +18,12 @@ router.get('/project/troops', function(req, res, next) {
     });
 });
 
+router.get('/project/troops/preview', function(req, res, next) {
+    res.render('projects/troops/preview',{
+    	title: "Troops"
+    });
+});
+
 router.get('/project/web-presentation', function(req, res, next) {
     res.render('projects/web-presentation/index',{
     	title: "Web Presentation"
