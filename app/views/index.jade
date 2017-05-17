@@ -24,3 +24,8 @@ block content
 							li
 								a(href="https://github.com/chaitu87",target="_blank")
 									i.fa.fa-github
+			.row
+				.col-xs.text-xs-center.align-middle
+					ul.articles
+						each article in articles
+							li= article.title
